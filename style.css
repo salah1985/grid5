@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    height: 76px;
+    background-color:white;
+    padding: 0 8vw;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    
+}
+.sa {
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li a {
+    color: #333;
+    font-size: .8em;
+    padding: 0 1.5vw;
+}
+header a {
+    text-decoration: none;
+}
+.logo {
+    color: #666;
+    font-size: 1.5em;
+}
+.logo:hover {
+    color: #333;
+}
+main {
+    padding-top: 76px;
+}
+.first {
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat fixed;
+    background-position-y: -200px;
+    height: 100vh;
+    color: #eee;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 4em;
+}
+.first a {
+    display: inline-block;
+    color: #eee;
+    width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 1s ease, color 1s ease;
+}
+.first p {
+    margin: 5vh 0;
+}
+.first a:nth-of-type(2) {
+    border: 1px solid #fff;
+}
+.first a:nth-of-type(2):hover {
+    background-color: #fff;
+    color: #333;
+}
+.first a:nth-of-type(1) {
+    background-color: #745cf9;
+}
+.first a:nth-of-type(1):hover {
+    background-color: #5234f9;
+}
+
+
+.seo {
+    padding: 10vh 10vw;
+}
+.seo figure {
+    display: flex;
+    align-items: center;
+}
+figure img {
+    width: 45vw;
+}
+figure h2 {
+    color: #0e1015;
+    font-size: 2rem;
+}
+figure p {
+    padding: 5vh 0;
+    color: #8c979e;
+}
+figure a {
+    display: inline-block;
+    color: #eee;
+    width: 250px;
+    background-color: #745cf9;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 1s ease, color 1s ease;   
+}
+figure a:hover {
+    background-color: #5234f9;
+}
+figcaption {
+    padding: 0 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolio {
+    padding: 5vh 10vw;
+    background-color: #F5F5F5;
+}
+.portfolio figure {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.small{
+background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1452723312111-3a7d0db0e024.jpg
+
+)center/cover no-repeat;
+background-position-y: -200px;
+height: 100vh;
+color: #eee;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ 
+}
+h3{
+    font-size: 3em;
+    padding: 20px;
+}
+.small a{
+    display: inline-block;
+    color: #eee;
+    width: 250px;
+    background-color: #745cf9;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 1s ease, color 1s ease; 
+
+}
+.Limitless{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.Limitless h4{
+    font-size: 2em;
+    padding: 20px;
+}
+.Limitless p{
+    color: grey;
+}
+.Limitless a{
+    display: inline-block;
+    color: #eee;
+    width: 250px;
+    background-color: #745cf9;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 1s ease, color 1s ease;
+}
+.pro{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+}
+.pro h5{
+    font-size: 2em;
+    padding: 20px;
+    color: white;
+    position: relative;
+    top: -15px;
+    left: 23em;
+}
+.pro p{
+    color:white;
+    font-size: 1em;
+    position: relative;
+    top: 50px;
+    left: .5em;
+}
+.our{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+  
+}
+.our img{
+    width: 100%;
+   
+}
+.our div{
+    position: relative;
+    display: flex;
+}
+.our div article{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.our div:hover article{
+    color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
